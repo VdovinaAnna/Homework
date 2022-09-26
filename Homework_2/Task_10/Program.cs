@@ -7,6 +7,8 @@ namespace Project
     static void Main(string[] args)
     {
         void Zadacha10()
+        /* Задача 10: Напишите программу, которая принимает на вход трёхзначное число 
+        и на выходе показывает вторую цифру этого*/
         {
         Console.WriteLine("Введите трехзначное число");
         int number = Convert.ToInt32(Console.ReadLine());
