@@ -43,9 +43,7 @@ void FillArray(double[,] array)
 
 double[,] massiv = DemensionArray();
 Console.WriteLine();
-PrintArray(massiv);
 FillArray(massiv);
-Console.WriteLine();
 PrintArray(massiv);
 
     #region Fill & Print
