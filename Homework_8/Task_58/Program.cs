@@ -66,17 +66,6 @@ void FillArray(int[,] arr)
     }
 }
 
-int SumInRow(int[,] arr, int i)
-{
-        int n = arr.GetLength(1);
-        int sum = 0;
-        for (int j = 0; j < arr.GetLength(1); j++)
-        {
-            sum += arr[i, j];
-        }
-        Console.WriteLine($"Сумма {i + 1} строки равна {sum}");
-        return sum;
-}
     }
 }
 }
