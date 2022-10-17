@@ -26,7 +26,6 @@ void Zadacha62 ()
     while (index < massiv.Length)
     {
         massiv[currentRow, currentColumn] = index + 1;
-        //Console.Write(massiv[currentRow, currentColumn] + " ");
         index++;
         steps--;
         if (steps == 0)
